@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  width: 300px;
+  height: 350px;
+  background-color: rgb(46, 46, 46);
+  font-family: "Roboto", sans-serif;
+  border-radius: 30%;
+  position: static;
+}
+h3 {
+  text-align: left;
+  color: white;
+  font-size: 2em;
+  margin: 0px 0px 10px 0px;
+}
+.skippingTitles {
+  color: white;
+  font-size: 2em;
+  font-weight: 200;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.skippingDescription {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 200;
+  margin: 0px 0px 0px 30px;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+th {
+  color: white;
+  font-size: 2em;
+  font-weight: 200;
+  padding: 10px;
+  width: 50%;
+}
+td {
+  text-align: center;
+  color: rgb(48, 48, 48);
+  font-size: 1.25em;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  font-weight: 300;
+}
+.buttonStyling {
+  color: white;
+  background-color: rgb(199, 1, 1);
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}
+#buttonContainer {
+  position: relative;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+#showEditingArea {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+label {
+  color: white;
+}
+
+input {
+  width: 115px;
+  height: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+#displayURL {
+  color: white;
+  font-size: 1em;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+label {
+  color: white;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.submitButtonIntro,
+submitButtonSponsor {
+  text-align: center;
+}
+
+#goBackToHome {
+  margin: 10px;
+}
+
+.informationDisplay {
+  margin-left: 15px;
+}
+
+#submitNewTimesArea {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgb(199, 1, 1);
+  color: white;
+  padding: 12px 16px;
+  cursor: pointer;
+  opacity: 0.9;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  margin-bottom: 20px;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 100px;
+  border: none;
+  border-radius: 7px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  margin: auto;
+  width: 80%;
+  bottom: 10px;
+  z-index: 9;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: rgb(46, 46, 46);
+  border-radius: 10px;
+}
+.form-styling {
+  color: white;
+  font-weight: 100;
+}
+/* Full-width input fields */
+.form-container input[type="text"] {
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0px 10px 5px;
+  border-radius: 10px;
+  border: none;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 70%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(199, 1, 1);
+  border-radius: 7px;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}

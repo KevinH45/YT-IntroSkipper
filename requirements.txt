@@ -1,0 +1,5 @@
+firebase_admin
+flask
+flask_restful
+Flask-Limiter
+flask-cors

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skipping Times</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <h2 class = "title">Skipping Times</h2>
+    <div class = "informationDisplay">
+        <p class = "skippingDescription" id = "startTime">Starts at</p>
+        <p class = "skippingDescription" id = "endTime">Ends at </p>
+    </div>
+    <div>
+        <button id = "getDataBtn">
+            Click me to get data!
+        </button>
+    </div>
+    <div id = "submitNewTimesArea">
+            <button class="open-button" id = "openBtn">Edit Time</button>
+            <div class="form-popup" id="myForm">
+                <form class="form-container" id="postForm">
+                    <h1 style = "margin-bottom: 5vh; font-weight: 600px;">Submit a new time</h1>
+
+                    <label for="IntroStart" class = "form-styling">Start Time</label>
+                    <input type="text" id = "startTimeField" placeholder="In seconds" name="IntroStart">
+
+
+                    <label for="Introduction" class = "form-styling">End Time</label>
+                    <input type="text" id = "endTimeField" placeholder="In seconds" name="Introduction" style = "margin-left: 16px; margin-bottom: 10vh;">
+
+
+                    
+                    <span>
+                        <button type="submit" id = "submitBtn" class="btn">Submit</button>
+                        <button type="button" class="btn cancel" id = "closeBtn">Close</button>
+                    </span>
+                </form>
+            </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+

@@ -1,0 +1,14 @@
+{
+    "name": "Intro Skipper2",
+    "version": "1.0.1",
+    "description": "Skip the intros or sponsors of a YouTube video",
+    "manifest_version": 3,
+    "author": "SY and TH",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "Skipping Times"
+    },
+    "permissions": [ 
+    "tabs"
+    ]
+}
