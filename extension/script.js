@@ -38,7 +38,6 @@ function getData() {
     });
 }
 
-// hello world!
 
 function postData(){
 
